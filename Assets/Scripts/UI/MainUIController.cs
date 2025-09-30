@@ -7,7 +7,7 @@ namespace UI
     {
         public void StartGame()
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("StoryScreen");
         }
 
         public void GameCredits()
