@@ -7,6 +7,7 @@ namespace Story
     {
         public void StartGame()
         {
+            GameManager.Instance.ResetScore();
             SceneManager.LoadScene("GameScene");
         }
         

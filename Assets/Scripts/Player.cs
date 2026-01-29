@@ -81,7 +81,8 @@ public class Player : MonoBehaviour
     }
 
     void GameOver()
-    {        
+    {
+        GameManager.Instance.SaveHighScore();
         SceneManager.LoadScene("GameOver");
     }
 

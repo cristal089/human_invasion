@@ -156,7 +156,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 409, y: 86}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &74405125
 MonoBehaviour:
@@ -529,6 +529,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -550,6 +552,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 190664635
   m_SortingLayer: 1
   m_SortingOrder: 0
@@ -705,7 +708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -237.8, y: 260.6}
+  m_AnchoredPosition: {x: -280, y: 260.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1934853240
@@ -728,9 +731,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Arte: Rafaela Cristina de Moraes Mendes\n\n\xC1udios: freesound.org\n\nFontes
-    de texto: \nCopyright (c) 2016\r\nMarkus Koellmann\r\n@ markuskoellmann.com\n\nFree
-    Pixel by levelb\r\n"
+  m_text: "Arte: Rafaela Cristina de Moraes Mendes\n\nSons:\nlilmati - retro underwater
+    explosion\ndjfroyd - laser one shot 2\nraclure - damage sound effect\nleavidencedesign
+    - the nightwalker\ntyops - suspense synth 2 arcade\nmountain_man - game over
+    arcade\nlilmati - retro space explosion or death sound effect\nbubaproducer -
+    laser shot short\n\nFontes de texto: \nPixelCaps! by Markus Koellmann\nFree Pixel
+    by levelb\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae4e3eb4419dba7448edba72af8c35cd, type: 2}
   m_sharedMaterial: {fileID: 3696051247075994423, guid: ae4e3eb4419dba7448edba72af8c35cd, type: 2}
@@ -757,8 +763,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -825,7 +831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &2016440357
 AudioSource:
   m_ObjectHideFlags: 0
@@ -836,7 +842,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 19636b5ab150dbd4884633ed9cf01624, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 19636b5ab150dbd4884633ed9cf01624, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -995,7 +1001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu inicial
+  m_text: Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae4e3eb4419dba7448edba72af8c35cd, type: 2}
   m_sharedMaterial: {fileID: 3696051247075994423, guid: ae4e3eb4419dba7448edba72af8c35cd, type: 2}

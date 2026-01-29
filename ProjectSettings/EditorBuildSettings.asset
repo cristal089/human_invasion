@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameCredits.unity
     guid: 5d966a6cd2151a3439088ae6f2dd575f
+  - enabled: 1
+    path: Assets/Scenes/StoryScreen.unity
+    guid: 9711ff83a580db549a2d317f15d91b2b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -7,6 +7,7 @@ namespace GameOver
     {
         public void RestartGame()
         {
+            GameManager.Instance.ResetScore();
             SceneManager.LoadScene("GameScene");
         }
 
