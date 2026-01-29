@@ -1,5 +1,5 @@
 <h1 align="center"> 
-<img src="https://github.com/cristal089/human_invasion/blob/Assets/Sprites/marcianito_sprite.png"> 
+<img src="https://github.com/cristal089/human_invasion/blob/master/Assets/Sprites/marcianito_sprite.png"> 
 </h1>
 
 ---
